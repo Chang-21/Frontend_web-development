@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <h1 id="title">Otamatsuri 2023 Survey Form</h1>
+        <p id="description">Thanks for taking the time to give your feedback on your experience with our event</p>
+    </body>
+    <form id="survey-form">
+        <fieldset>
+        <legend>User Information</legend>
+        <label for="name" id="name-label">Enter Your Name: <input id="name" type="text" placeholder="Enter your name" required/></label>
+        <label id="email-label" for="email">Enter Your Email Address: <input id="email" type="email" placeholder="Enter your name" required/></label>
+        <label for="number" id="number-label">Enter Your Number: <input id="number" type="number"  placeholder="010127354" min="10" max="14"/></label>
+        </fieldset>
+        <fieldset>
+        <select id="dropdown">
+            <option value="">Please Select one</option>
+            <option value="1">manga</option>
+            <option value='2'>anime</option>
+            <option value="3">liveaction</option>
+            <option value="4">k drama</option>
+            
+        
+        </select>
+        </fieldset>
+        <fieldset>
+        <p>question 3</p>
+        
+        <input type="radio" id="manga" name="radiobutton" value="manga">
+        <label id="radio" for="manga">manga</label><br>
+        <input type="radio" name="radiobutton" value="anime" id="radiob">    
+        <label id="radio" for="radiob">anime</label><br>
+        <p>checks are required</p>
+        <input type="checkbox" id="anime1" name="anime1" value="watch-list1">  
+        <label for="anime1">black clover</label><br>
+        <input type="checkbox" id="anime2" name="anime2" value="watch-list2">  
+        <label for="anime2">korukos no basketball</label><br>
+        <input type="checkbox" id="anime3" name="anime3" value="watch-list3">  
+        <label for="annime3">attack on titan</label><br>
+        <input type="checkbox" id="anime4" name="anime4" value="watch-list4">  
+        <label for="anime4">hunter x hunter</label><br>
+    </fieldset>
+    <fieldset>
+    <caption> Air in your suggestions and areas to be improved for the next event</caption>
+    <textarea name="opinion" rows="15" cols="30" placeholder="the venue was so small hence crowd"></textarea>
+    </fieldset>
+    <button type="submit" id="submit">submit</button>
+    
+    </form>
+
+    </html>
+    </form>
+
+    </html>

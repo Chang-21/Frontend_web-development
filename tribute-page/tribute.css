@@ -1,0 +1,16 @@
+#image{
+    max-width: 100%;
+    height: auto;
+}
+img {
+    display:block;
+}
+a {
+    color:blue;
+}
+a:hover {
+    color:red;
+}
+a:visited{
+    color:purple;
+}
