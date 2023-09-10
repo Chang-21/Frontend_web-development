@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./TecDoc-page.css"
+</head>
+<body>
+   <main id="main-doc">
+    <section class="main-section" id="introduction">
+        <header>introduction</header>
+        <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+        <p>"Hypertext" refers to links that connect web pages to one another, either within a single website or between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+        <p>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup includes special "elements" such as <head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, <img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <search>, <output>, <progress>, <video>, <ul>, <ol>, <li> and many others.</p>
+        <code><!doctype html>
+            <html lang="en-US">
+              <head>
+                <meta charset="utf-8" />
+                <meta name="viewport" content="width=device-width" />
+                <title>My test page</title>
+              </head>
+              <body>
+                <img src="images/firefox-icon.png" alt="My test image" />
+              </body>
+            </html></code>
+        <ul>
+            <li>Above is a sample of an html code</li>
+        </ul>
+    </section>
+    <section class="main-section" id="multimedia_and_embedding">
+        <header>multimedia and embedding</header>
+        <p>We've looked at a lot of text so far in this course, but the web would be really boring only using text. Let's start looking at how to make the web come alive with more interesting content! This module explores how to use HTML to include multimedia in your web pages, including the different ways that images can be included, and how to embed video, audio, and even entire webpages.</p>
+        <p>There are other types of multimedia to consider, but it is logical to start with the humble <img> element used to embed a simple image in a webpage. In this article we'll look at how to use it in more depth, including basics, annotating it with captions using <figure>, and how it relates to CSS background images.</p>
+        <p>Next, we'll look at how to use the HTML <video> and <audio> elements to embed video and audio on our pages, including basics, providing access to different file formats to different browsers, adding captions and subtitles, and how to add fallbacks for older browsers.</p>
+        <code><img src="img_chania.jpg" alt="Flowers in Chania"></code>
+        <ul>
+            <li>src - Specifies the path to the image</li>
+            <li>alt - Specifies an alternate text for the image</li>
+        </ul>
+    </section>
+    <section class="main-section" id="html_tables">
+        <header>html tables</header>
+        <p>This article gets you started with HTML tables, covering the very basics such as rows and cells, headings, making cells span multiple columns and rows, and how to group together all the cells in a column for styling purposes.</p>
+        <p>This article looks at some more advanced features of HTML tables — such as captions/summaries and grouping your rows into table head, body and footer sections — as well as looking at the accessibility of tables for visually impaired users.</p>
+        <p></p>
+        <code><table>
+            <tr>
+              <td>Emil</td>
+              <td>Tobias</td>
+              <td>Linus</td>
+            </tr>
+          </table></code>
+        <code></code>
+        <ul>
+            <li><table>	Defines a table</li>
+            <li><th>	Defines a header cell in a table</li>
+        </ul>
+    </section>
+    <section class="main-section" id="html_forms">
+        <header>html forms</header>
+        <p>An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>
+        <p>he HTML <form> element is used to create an HTML form for user input:</p>
+        <p>The HTML <input> element is the most used form element.An <input> element can be displayed in many ways, depending on the type attribute.</p>
+        <code><form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+          </form></code> 
+        <ul>
+            <li>The <label> tag defines a label for many form elements.</li>
+            <li>The <input type="radio"> defines a radio button.</li>
+        </ul>
+    </section>
+    <section class="main-section" id="sematic_html">
+        <header>sematic html</header>
+        <p>What are Semantic Elements?</p>
+        <p>A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: <div> and <span> - Tells nothing about its content. Examples of semantic elements: <form>, <table>, and <article> - Clearly defines its content</p>
+        <p>HTML <section> Element
+             The <section> element defines a section in a document. According to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading."</p>
+        <code><section>
+            <h1>WWF</h1>
+            <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+            </section></code>
+        <ul>
+            <li><article></article></li>
+            <li><aside></aside></li>
+        </ul>
+    </section>
+    <nav class="navbar" id="navbar">
+        <header>HTML documentation</header>
+        <a href="#introduction" class="nav-link">introduction</a>
+        <a href="#multimedia_and_embedding" class="nav-link">multimedia and embedding</a>
+        <a href="#html_tables" class="nav-link">html tables</a>
+        <a href="#html_forms" class="nav-link">html forms</a>
+        <a href="#sematic_html" class="nav-link">sematic html</a>
+    </nav>
+    <p>Reference</p>
+    <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Developer mozilla</a></li>
+        <li><a href="https://www.w3schools.com/html/default.asp">w3schools</a></li>
+    </ul>
+   </main> 
+</body>
+</html>
