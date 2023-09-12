@@ -1,5 +1,3 @@
-Certainly, here's a brief README description of your learning journey in front-end web development:
-
 Front-End Web Development Learning Journey
 
 Overview:
