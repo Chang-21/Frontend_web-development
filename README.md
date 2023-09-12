@@ -17,8 +17,6 @@ Learned to add interactivity to web pages with event handling.
 
 Front-End Frameworks:
 
-Explored popular front-end frameworks like React and Vue.js.
-Built dynamic and responsive user interfaces.
 
 Responsive Web Design:
 
@@ -28,13 +26,6 @@ Version Control with Git:
 
 Mastered the basics of Git for version control, making collaboration and project management more efficient.
 
-Web Accessibility:
-
-Emphasized the importance of web accessibility and learned techniques to make websites more inclusive.
-
-Build Tools and Workflow:
-
-Integrated build tools like Webpack and Babel into my workflow for optimized development.
 
 Projects:
 Throughout my journey, I've undertaken various projects to apply my knowledge and skills. These include personal websites, small web applications, and contributions to open-source projects.
@@ -48,4 +39,3 @@ Staying updated with the latest web development trends and technologies.
 
 Feel free to explore my repository and follow along with my progress. If you have any feedback, suggestions, or collaboration opportunities, please don't hesitate to reach out. I'm excited to continue growing as a front-end web developer.
 
-This README description provides an overview of your journey, key milestones, projects, and future goals in front-end web development. You can update it regularly to reflect your progress and new achievements.
